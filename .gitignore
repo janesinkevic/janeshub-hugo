@@ -1,0 +1,9 @@
+/public/
+/resources/
+/archetypes/
+/data/
+/i18n/
+/layouts/
+/static/
+/themes/
+.DS_Store

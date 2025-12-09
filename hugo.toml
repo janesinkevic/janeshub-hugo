@@ -1,0 +1,32 @@
+baseURL = 'https://janeshub.org/'
+languageCode = 'en-us'
+defaultContentLanguage = 'en'
+title = 'Jane’s Hub: Knowledge Constructor'
+theme = 'hugo-book'
+
+[params]
+  BookLastModified = true
+  BookSearch = true
+  BookSection = "lithuanian"
+
+[menu]
+    [[menu.main]]
+        name = "Начать курс"
+        url = "/ru/"
+        weight = 1
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 1
+
+  [languages.lt]
+    contentDir = "content/lt"
+    languageName = "Lietuvių"
+    weight = 2
+
+  [languages.ru]
+    contentDir = "content/ru"
+    languageName = "Русский"
+    weight = 3

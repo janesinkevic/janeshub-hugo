@@ -1,4 +1,4 @@
-baseURL = 'https://janeshub.org/'
+baseURL = 'https://janeshub.netlify.app/'
 languageCode = 'en-us'
 defaultContentLanguage = 'en'
 title = 'Jane’s Hub: Knowledge Constructor'

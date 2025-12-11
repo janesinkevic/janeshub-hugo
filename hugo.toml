@@ -1,6 +1,6 @@
 baseURL = 'https://janeshub.netlify.app/'
 languageCode = 'en-us'
-defaultContentLanguage = 'en'
+defaultContentLanguage = 'ru'
 title = 'Jane’s Hub: Knowledge Constructor'
 theme = 'hugo-book'
 
@@ -8,6 +8,7 @@ theme = 'hugo-book'
   BookLastModified = true
   BookSearch = true
   BookSection = "lithuanian"
+  BookComments = true
 
 [menu]
     [[menu.main]]
@@ -16,9 +17,9 @@ theme = 'hugo-book'
         weight = 1
 
 [languages]
-  [languages.en]
-    contentDir = "content/en"
-    languageName = "English"
+  [languages.ru]
+    contentDir = "content/ru"
+    languageName = "Русский"
     weight = 1
 
   [languages.lt]
@@ -26,7 +27,7 @@ theme = 'hugo-book'
     languageName = "Lietuvių"
     weight = 2
 
-  [languages.ru]
-    contentDir = "content/ru"
-    languageName = "Русский"
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
     weight = 3
